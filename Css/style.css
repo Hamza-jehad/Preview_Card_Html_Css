@@ -1,0 +1,165 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lexend Deca', sans-serif;
+}
+.a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    width: 100%;
+}
+
+.container-card{
+    display: flex;
+    flex-flow: row;
+    overflow: hidden;
+    border-radius:40px;
+    height:auto;
+    /* margin: 10em 10.5em; */
+    margin: 80px 180px;
+    border-radius: 15px;
+    
+ }
+/* Start Sedans */
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    width: 100%;
+}
+.sedans img{
+    margin: 40px;
+    margin-bottom: 20px;
+}
+.sedans h2{
+    text-transform: uppercase;
+    margin: 40px ;
+    font-size: 30px;
+}
+.sedans p{
+    margin: 40px ;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 2;
+
+}
+.sedans .btn{
+    color: hsla(0, 0%, 100%, 0.75);
+    color: hsl(31, 77%, 52%);
+    margin: 50px ;
+    padding: 10px;
+    width: 130px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    /* transition: all .5s ease; */
+
+}
+.sedans .btn:hover{
+    box-shadow: 0 0 12px white;
+    background-color: #eb7f48;
+    background-image: linear-gradient(to right, #eb7f48, #ff8800);
+    color: black;
+}
+/* End Sedans */
+
+
+
+/* Start Suvs */
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    width: 100%;
+}
+.suvs img{
+    margin: 40px;
+    margin-bottom: 20px;
+}
+
+.suvs h2{
+    text-transform: uppercase;
+    margin: 40px ;
+    font-size: 30px;
+
+}
+
+.suvs p{
+    margin: 40px ;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 2;
+
+}
+.suvs .btn{
+    color: hsla(0, 0%, 100%, 0.75);
+    color: hsl(184, 100%, 22%);
+    margin: 50px ;
+    padding: 10px;
+    width: 130px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.suvs .btn:hover{
+    box-shadow: 0 0 12px white;
+    background-color: hsl(197, 80%, 48%);
+    background-image: linear-gradient(to right, hsl(197, 100%, 50%), hsl(197, 49%, 44%));
+    color: black;
+}
+/* End Suvs */
+
+
+
+/* Start Luxury */
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    width: 100%;
+}
+.luxury img{
+    margin: 40px;
+    margin-bottom: 20px;
+}
+.luxury h2{
+    text-transform: uppercase;
+    margin: 40px ;
+    font-size: 30px;
+
+}
+.luxury p{
+    margin: 40px ;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 2;
+
+}
+.luxury .btn{
+    color: hsla(0, 0%, 100%, 0.75);
+    color: hsl(179, 100%, 13%);
+    margin: 50px ;
+    padding: 10px;
+    width: 130px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+@media (max-width: 1050px) {
+    .container-card{
+        display: block;
+        /* margin: 2em 0.5em; */
+        margin: 10px;
+        width: 90%;
+
+    }  
+}
+.luxury .btn:hover{
+    box-shadow: 0 0 12px white;
+    background-color: hsl(197, 80%, 48%);
+    background-image: linear-gradient(to right, hsl(179, 91%, 26%), hsl(174, 61%, 45%));
+    color: black;
+}
+
+/* End Luxury */
